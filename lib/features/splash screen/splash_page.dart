@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:organize/comun/const/app_colors.dart';
-import 'package:organize/comun/const/app_text_styles.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({super.key});
@@ -10,9 +9,14 @@ class SplashPage extends StatelessWidget {
     return Scaffold(
       body: Container(
         alignment: Alignment.center,
-        decoration: BoxDecoration( color: AppColers.splash_green,),
-          child: Text('Organiza',
-           style:AppTextStyles.bigText.copyWith(color:AppColers.splash_white)),
+        decoration: BoxDecoration(
+          color: AppColers.splash_green
+          ),
+        child: Image.asset(
+          'assets/images/logo.png',
+          width: 220,
+          height: 220,
+        ),
       ),
     );
   }
