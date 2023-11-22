@@ -11,7 +11,7 @@ class AppTextStyles {
 
   static const TextStyle mediunText = TextStyle(
       fontFamily: 'Inter',
-      fontSize: 36.0,
+      fontSize: 26.0,
       fontWeight: FontWeight.w700);
 
   static const TextStyle smallText = TextStyle(

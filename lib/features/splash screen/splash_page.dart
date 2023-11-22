@@ -9,8 +9,8 @@ class SplashPage extends StatelessWidget {
     return Scaffold(
       body: Container(
         alignment: Alignment.center,
-        decoration: BoxDecoration(
-          color: AppColers.splash_green
+        decoration: const BoxDecoration(
+          color: AppColers.green
           ),
         child: Image.asset(
           'assets/images/logo.png',
